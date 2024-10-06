@@ -11,9 +11,9 @@ razerpay=0
 i=0
 
 wcapi = API(
-    url="https://fotovilla.in/",
-    consumer_key="ck_0a3246450ebf788069af634d2ca099b17b9f2fac",
-    consumer_secret="cs_566eea81414c838f11258a5fab67fcc98b7b567a",
+    url="https://yoursite.com/",
+    consumer_key="Your woocommerce api key",
+    consumer_secret="Your woocommerce api key",
     version="wc/v3"
 )
 if datetime.now().hour>10:
